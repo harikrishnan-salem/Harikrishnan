@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "/storage/emulated/0/Harikrishnan/python",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
